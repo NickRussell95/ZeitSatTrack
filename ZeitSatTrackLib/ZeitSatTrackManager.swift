@@ -55,7 +55,7 @@ public protocol ZeitSatTrackManagerDelegate : class {
 }
 
 open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
-    open static let sharedInstance = ZeitSatTrackManager()
+    public static let sharedInstance = ZeitSatTrackManager()
     
     open weak var delegate:               ZeitSatTrackManagerDelegate?
     
@@ -160,7 +160,7 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     // MARK: Delegate Support
 
     /// fetch positions for delivery to delegates
-    func postionsForObservedSatellites() {
+    @objc func postionsForObservedSatellites() {
         var rv = Dictionary<String, GeoCoordinates>()
         
         self.observedSatellites.forEach { (name) in
