@@ -131,7 +131,7 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     open func stopObservingSatelliteNamed( _ name: String) -> Bool {
         var rv = false
         if self.observedSatellites.contains(name){
-            if let index = self.observedSatellites.index(of: name) {
+            if let index = self.observedSatellites.firstIndex(of: name) {
                 self.observedSatellites.remove(at:index)
                 rv = true
                 self.delegate?.didRemoveObservedSatellitesNamed([name])

@@ -32,7 +32,6 @@
 		8BCB54481ED69A420035C9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB54401ED69A420035C9CD /* Assets.xcassets */; };
 		8BCB54491ED69A420035C9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB54411ED69A420035C9CD /* LaunchScreen.storyboard */; };
 		8BCB544A1ED69A420035C9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB54431ED69A420035C9CD /* Main.storyboard */; };
-		8BCB544B1ED69A420035C9CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB54451ED69A420035C9CD /* Info.plist */; };
 		8BCB544C1ED69A420035C9CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB54461ED69A420035C9CD /* ViewController.swift */; };
 		8BEAA6881EDA2F4400356CD9 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 8BEAA6871EDA2F4400356CD9 /* geography-class_medres.mbtiles */; };
 		8BEAA6A51EDA540800356CD9 /* starcatalog_orig.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8BEAA6A31EDA540800356CD9 /* starcatalog_orig.txt */; };
@@ -410,23 +409,24 @@
 				TargetAttributes = {
 					8B9C2A021EC6D32100C7795A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = LL4RN96RN5;
+						DevelopmentTeam = 9QTY4S48VD;
 						ProvisioningStyle = Automatic;
 					};
 					8B9C2A161EC6D32100C7795A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = YSHJQA6U2L;
+						DevelopmentTeam = 9QTY4S48VD;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8B9C2A021EC6D32100C7795A;
 					};
 					8BA659981ED400D100EBFDD1 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = YSHJQA6U2L;
+						DevelopmentTeam = 9QTY4S48VD;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
 					8BA659A01ED400D100EBFDD1 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = YSHJQA6U2L;
+						DevelopmentTeam = 9QTY4S48VD;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8B9C2A021EC6D32100C7795A;
 					};
@@ -482,7 +482,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCB544B1ED69A420035C9CD /* Info.plist in Resources */,
 				8BEAA6A61EDA540800356CD9 /* starcatalog_short.txt in Resources */,
 				8BCB544A1ED69A420035C9CD /* Main.storyboard in Resources */,
 				8BEAA6881EDA2F4400356CD9 /* geography-class_medres.mbtiles in Resources */,
@@ -799,7 +798,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LL4RN96RN5;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/\"\n",
 					"$(inherited)",
@@ -823,7 +822,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LL4RN96RN5;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/\"\n",
 					"$(inherited)",
@@ -846,7 +845,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				INFOPLIST_FILE = ZeitSatTrackUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrackUITests;
@@ -860,7 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				INFOPLIST_FILE = ZeitSatTrackUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrackUITests;
@@ -876,17 +875,19 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZeitSatTrackLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -898,17 +899,19 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZeitSatTrackLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -918,13 +921,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				INFOPLIST_FILE = ZeitSatTrackLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrackLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeitSatTrack.app/ZeitSatTrack";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeitSatTrackDemo.app/ZeitSatTrackDemo";
 			};
 			name = Debug;
 		};
@@ -932,13 +935,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = YSHJQA6U2L;
+				DEVELOPMENT_TEAM = 9QTY4S48VD;
 				INFOPLIST_FILE = ZeitSatTrackLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeitgeist.ZeitSatTrackLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeitSatTrack.app/ZeitSatTrack";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeitSatTrackDemo.app/ZeitSatTrackDemo";
 			};
 			name = Release;
 		};
