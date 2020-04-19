@@ -28,7 +28,7 @@ extension String
 }
 
 
-class TwoLineElementSet {
+public class TwoLineElementSet {
 
     // Line 0
     var nameOfSatellite:         String = ""

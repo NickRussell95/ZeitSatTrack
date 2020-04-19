@@ -24,7 +24,7 @@ public struct LookAngle {
 }
 
 
-class Satellite {
+public class Satellite {
     
     var twoLineElementSet: TwoLineElementSet?
     var name = ""
