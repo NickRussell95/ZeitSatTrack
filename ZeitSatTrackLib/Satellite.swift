@@ -44,11 +44,11 @@ public class Satellite {
         }
     }
     
-    func satellitePositionNow() -> GeoCoordinates? {
+    public func satellitePositionNow() -> GeoCoordinates? {
         return satellitePositionAt(date: Date())
     }
     
-    func satellitePositionAt(date:Date) -> GeoCoordinates? {
+    public func satellitePositionAt(date:Date) -> GeoCoordinates? {
         var currentSatellitePosition: GeoCoordinates?
 
         // @FIXME: Need to check the requested date against the TLE launch date -- if the req date is < lauchDate return empty coordiates
@@ -151,7 +151,7 @@ public class Satellite {
     
     
     
-    func orbitalInfoAt(date:Date, location: CLLocation? = nil) -> Dictionary<String, String>? {
+    public func orbitalInfoAt(date:Date, location: CLLocation? = nil) -> Dictionary<String, String>? {
         var orbitalInfo: Dictionary<String, String>?
         
         // @FIXME: Need to check the requested date against the TLE launch date -- if the requested date is < lauchDate return empty coordiates
