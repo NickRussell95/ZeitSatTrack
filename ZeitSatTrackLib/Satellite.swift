@@ -31,7 +31,7 @@ public class Satellite {
     var satCatNumber = 0
     var cosparID = ""
     
-    convenience init(twoLineElementSet: TwoLineElementSet?) {
+    public convenience init(twoLineElementSet: TwoLineElementSet?) {
         self.init()
         if twoLineElementSet != nil {
             self.twoLineElementSet = twoLineElementSet;

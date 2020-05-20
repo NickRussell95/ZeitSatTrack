@@ -51,7 +51,7 @@ public class TwoLineElementSet {
     var launchYear:             Int = 0
 
     
-    convenience init(nameOfSatellite: String, lineOne: String, lineTwo:String) {
+    public convenience init(nameOfSatellite: String, lineOne: String, lineTwo:String) {
         self.init()
         
     // An example TLE
